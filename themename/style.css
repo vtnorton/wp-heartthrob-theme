@@ -1,0 +1,56 @@
+/*
+    Theme Name: Theme name
+    Theme URI: https://vtnorton.com
+    Author: Ví­tor Norton
+    Auhor URI: https://heartthrob.vtnorton.com
+    License: MIT
+    Description: Lorem ipsum
+    Text Domain: themename
+*/
+
+ul.social { margin: 0; padding: 0; list-style: none; }
+ul.social li { display: inline-block;}
+ul.social li a { display: block; width: 36px; height: 36px; border-radius: 50%; text-align: center; font-size: 18px; line-height: 36px; }
+ul.social li a.youtube { background-color: #FF0000; }
+ul.social li a.linkedin { background-color: #0A66C2; }
+ul.social li a.soundcloud { background-color: #F26F23;}
+ul.social li a.instagram { background-color: #E1306C; }
+ul.social li a i { color: #fff; }
+
+header ul.social {margin: 5px 0 0}
+header ul.social a {height: 27px; width: 27px; font-size: 14px; line-height: 27px;}
+
+.showcase {width: 100%; height: 60vh; display: flex; align-items: center; background: #e5e5e5; background-size: cover; background-position: center; background-repeat: no-repeat;}
+.showcase h1, .showcase h3 {color: #fff; font-weight: 300; font-size: 3rem; line-height: 3rem; margin-bottom: 2rem;}
+.showcase h1 strong {font-weight: 700;}
+.showcase h3 {font-size: 1.5rem; line-height: 1.5rem;}
+
+.testimonies {background: #e5e5e5; padding: 2rem 0; text-align: center; background-size: contain; background-position: center; background-repeat: no-repeat;}
+.testimonies h2{text-align: center; color: #fff;}
+.testimonies .depoimento {display: inline-flex; flex-direction: column; max-width: 70%;}
+.testimonies .depoimento p {color: #fff !important; font-size: 1rem; line-height: 175%;}
+.testimonies .pessoa {display: inline-flex; align-items: center; padding: 1.5rem; margin: auto;}
+.testimonies .pessoa img {width: 100px; height: 100px; margin-right: 1rem; border-radius: 50%;}
+.testimonies .pessoa .nome {display: inline-flex; flex-direction: column; text-align: left;}
+.testimonies .pessoa h3 {color: #fff; font-size: 1.3rem; line-height: 100%; font-weight: 700; margin-bottom: 0.1rem;}
+.testimonies .pessoa h4 {color: #fff; font-size: 1.1rem; line-height: 100%; font-weight: 300; margin-bottom: 0;}
+.testimonies i {color: #fff;}
+
+.responsive-youtube {padding: 0 0 50%; position: relative;}
+.responsive-youtube iframe {width: 100%; height: 100%; position: absolute; left: 0;}
+
+/* Styles from frameworks */
+.owl-showcase .owl-nav,
+.owl-empresas .owl-nav {display: none;}
+.owl-testimonies .owl-dots {display: none;}
+.owl-showcase .owl-dots {position: absolute; width: 100%; bottom: 0; z-index: 999}
+.owl-theme .owl-dots .owl-dot {min-width: 10px !important;}
+.jqmWindow {border:none;box-shadow: 0 0.267em 0.85em rgb(0 0 0 / 45%);padding: 1.5rem 2rem;}
+
+@media screen and (max-width: 1024px){
+    .jqmWindow{width: 90%;}
+}
+
+@media screen and (max-width: 909px){
+    .jqmWindow{width: calc(100% - 2rem); height: calc(100vh - 2rem); top: 1rem; left: 1rem; margin-left: 0; overflow: scroll;}
+}

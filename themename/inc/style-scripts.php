@@ -2,7 +2,7 @@
 	add_action( 'wp_enqueue_scripts', 'style_scripts' );
 	function style_scripts() {
 		wp_enqueue_style('heartthrob', get_template_directory_uri() . '/frameworks/heartthrob/heartthrob.css');
-		wp_enqueue_style('heartthrob', get_template_directory_uri() . '/frameworks/heartthrob/heartthrob.grids.css');
+		wp_enqueue_style('heartthrob-grids', get_template_directory_uri() . '/frameworks/heartthrob/heartthrob.grids.css');
 		wp_enqueue_style('jqModal', get_template_directory_uri() . '/frameworks/jqModal/jqModal.css');
 		wp_enqueue_style('fontawesome', get_template_directory_uri() . '/frameworks/fontawesome/css/all.min.css');
 		wp_enqueue_style('fontawesome-brands', get_template_directory_uri() . '/frameworks/fontawesome/css/brands.min.css');
